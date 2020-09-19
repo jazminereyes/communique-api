@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;600;800&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Dosis', 'Alata', sans-serif;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.h-text{
+  font-weight: 800;
+}
+
+.semi-bold{
+  font-weight: 600;
+}
+
+.btn-normal{
+  background-color: #465C69;
+  color: white;
+  font-weight: 600;
+}
+
+.btn-normal:focus, .btn-normal:active{
+  outline: none !important;
+  box-shadow: none;
+}
+
+.btn-primary{
+  font-weight: 600;
+  background-color: #363457;
+  border-color: #363457;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active{
+  background-color: #AEA3B0 !important;
+  border-color: #AEA3B0 !important;
+  box-shadow: none !important;
+}
+
+.form-control:focus{
+  box-shadow: inset 0 -1px 0 #ddd;
+  border-color: #465C69;
+}
+
+.card{
+  border-top: 8px solid #E3D0D8;
+}
+
+.btn-icon{
+  outline: none;
+  border: none;
+}
+
+.btn-icon:hover .heart-btn{
+  color: red;
+}
+
+.btn-icon:focus{
+  box-shadow: inset 0 -1px 0 #ddd !important;
+}
+
+.swal-button--confirm{
+  background-color: #465C69;
+}
+
+.swal-button--confirm:hover{
+  background-color: #7598ad !important;
+}
